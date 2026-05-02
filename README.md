@@ -4,6 +4,11 @@ One-Click Installer for Quip Node (Ubuntu)
 - VPS (Ubuntu 22.04 / 24.04)
 - Minimum: 2 - 4 CPU / 8GB RAM
 - Open port: 20049 (TCP + UDP)
+- Installation of required packages
+ ```
+sudo apt update && sudo apt upgrade -y
+sudo apt install curl git wget htop tmux build-essential jq make lz4 gcc unzip -y
+ ```
 ## One-line Install
 ```
 curl -fsSL https://raw.githubusercontent.com/validropxyz/Quip-Node-Auto-Setup/refs/heads/main/setup.sh | sudo bash
