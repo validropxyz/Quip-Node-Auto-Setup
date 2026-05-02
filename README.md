@@ -1,5 +1,7 @@
 # Quip-Node-Auto-Setup
 One-Click Installer for Quip Node (Ubuntu)
+Dashboadrd: https://quipstats.test-hub.xyz
+X: https://x.com/quipnetwork
 ## ⚠️ Requirements
 - VPS (Ubuntu 22.04 / 24.04)
 - Minimum: 2 - 4 CPU / 8GB RAM
