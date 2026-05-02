@@ -11,7 +11,9 @@ sudo apt install curl git wget htop tmux build-essential jq make lz4 gcc unzip -
  ```
 ## One-line Install
 ```
-curl -fsSL https://raw.githubusercontent.com/validropxyz/Quip-Node-Auto-Setup/refs/heads/main/setup.sh | sudo bash
+wget -O setup.sh https://raw.githubusercontent.com/validropxyz/Quip-Node-Auto-Setup/refs/heads/main/setup.sh
+chmod +x setup.sh
+sudo bash setup.sh
 ```
 ### 👉 Node Name
 Example:
