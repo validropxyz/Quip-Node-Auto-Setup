@@ -40,6 +40,9 @@ echo "📦 Installing dependencies..."
 apt install -y curl wget ca-certificates
 
 echo ""
+if ! [ -t 0 ]; then
+  exec < /dev/tty
+fi
 
 # --- INPUT HANDLING (FIX IMPORTANT) ---
 if [ -z "$NODE_NAME" ]; then
