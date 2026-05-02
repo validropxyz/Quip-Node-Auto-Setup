@@ -10,13 +10,20 @@ curl -fsSL https://raw.githubusercontent.com/validropxyz/Quip-Node-Auto-Setup/re
 ```
 ## 📦 What this script does
 
-When you run the installer, VALIDROP will:
+When you run the installer:
+
 🔄 Update Ubuntu system
+
 🐳 Auto install Docker (if missing)
+
 📥 Pull Quip Node image
+
 🚀 Deploy node in Docker container
+
 🔁 Enable auto-restart on reboot
+
 📊 Start node logging automatically
+
 ## 📊 Check node status
 ```
 docker logs -f quip-node
