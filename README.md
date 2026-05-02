@@ -15,10 +15,10 @@ curl -fsSL https://raw.githubusercontent.com/validropxyz/Quip-Node-Auto-Setup/re
 ```
 ### 👉 Node Name
 Example:
-node01
-validator-1
-validrop-node
+`node01`
+
 ### 👉 Wallet Address
+You must enter a valid EVM wallet address:
 ```
 0x1234567890abcdef...
 ```
