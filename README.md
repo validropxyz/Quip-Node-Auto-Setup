@@ -13,6 +13,15 @@ sudo apt install curl git wget htop tmux build-essential jq make lz4 gcc unzip -
 ```
 curl -fsSL https://raw.githubusercontent.com/validropxyz/Quip-Node-Auto-Setup/refs/heads/main/setup.sh | sudo bash
 ```
+### 👉 Node Name
+Example:
+node01
+validator-1
+validrop-node
+### 👉 Wallet Address
+```
+0x1234567890abcdef...
+```
 ## 📦 What this script does
 
 When you run the installer:
